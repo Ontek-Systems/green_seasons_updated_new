@@ -1,0 +1,11 @@
+/about            /pages/about.html            200
+/commercial       /pages/commercial.html       200
+/contact          /pages/contact.html          200
+/gallery          /pages/gallery.html          200
+/services         /pages/services.html         200
+/testimonials     /pages/testimonials.html     200
+/where-we-serve   /pages/where-we-serve.html   200
+/privacy-policy   /pages/privacy-policy.html   200
+/thank-you        /pages/thank-you.html        200
+/services/*       /pages/services/:splat.html  200
+/locations/*      /pages/locations/:splat.html 200

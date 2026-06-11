@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Where We Serve | Green Seasons | Garden &amp; Grounds Maintenance, Oxfordshire</title>
+    <meta name="description" content="Green Seasons provides professional garden and grounds maintenance across Oxfordshire and surrounding areas, including Abingdon, Oxford, Didcot, Witney, and more." />
+    <link rel="canonical" href="https://www.green-seasons.co.uk/pages/where-we-serve.html" />
+
+    <link rel="icon" type="image/png" href="../assets/imgs/main_favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4.3.0/dist/index.global.js" integrity="sha384-nWTzRTCY/9V4Bo352ehygr1c4cnst4XN6lMR3fipakEQrhVpc0hEM5Dii3Amz0sT" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-brand-dark:   #668e78;
+            --color-brand-ocean:  #668e78;
+            --color-brand-bronze: #d49813;
+            --color-brand-alice:  #ffffff;
+            --color-brand-beige:  #ffffff;
+            --color-brand-text:   #1a3528;
+            --font-heading: 'Marcus Traianus', 'Cinzel', Georgia, serif;
+            --font-body:    'DM Sans', sans-serif;
+        }
+    
+        @layer utilities {
+            .card-btn-row {
+                margin-left: -1.5rem;
+                margin-right: -1.5rem;
+                margin-bottom: -1.5rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-bottom: 1rem;
+                width: calc(100% + 3rem);
+            }
+            @media (min-width: 640px) {
+                .card-btn-row {
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-bottom: 0;
+                    padding-left: 0;
+                    padding-right: 0;
+                    padding-bottom: 0;
+                    width: 100%;
+                }
+            }
+        }
+    </style>
+    <style>
+        .word-mask { display:inline-block; overflow:hidden; vertical-align:bottom; padding-bottom:0.15em; margin-bottom:-0.15em; }
+        .word-mask-inner { display:inline-block; transform:translateY(110%); transition:transform 0.8s cubic-bezier(0.2,0.8,0.2,1); will-change:transform; }
+        .reveal.active .word-mask-inner { transform:translateY(0); }
+        .title-underline-anim { opacity:0; }
+        .reveal.active .title-underline-anim { animation:revealUnderline 0.8s cubic-bezier(0.2,0.8,0.2,1) 500ms forwards; }
+        @keyframes revealUnderline { from {opacity:0;transform:translateY(20px)} to {opacity:1;transform:translateY(0)} }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen antialiased">
+
+    <div id="header-placeholder"></div>
+
+    <main class="flex-grow">
+
+        <!-- ══ PAGE HEADER ══ -->
+        <section style="background:#668e78;" class="pt-40 pb-14 text-white text-center">
+            <span class="inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-5 text-white border-b border-current pb-0.5 hover:text-[#db9f1b] transition-colors duration-300 cursor-default">01</span>
+            <h1 class="font-heading font-black text-4xl sm:text-5xl lg:text-6xl text-white leading-tight mb-4">Where We Serve</h1>
+            <p class="font-body text-white/75 text-base sm:text-lg max-w-xl mx-auto">Areas we cover across Oxfordshire.</p>
+        </section>
+
+        <!-- ══ LOCATIONS GRID ══ -->
+        <section style="background:#ffffff;" class="py-16 md:py-24">
+            <div class="w-full max-w-[98rem] mx-auto px-4 sm:px-6 lg:px-10">
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:0ms;" onclick="window.location.href='./locations/abingdon.html'">
+                        <img src="../assets/imgs/location_imgs/Abingdon.jpg" alt="Abingdon" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Abingdon</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/abingdon.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:50ms;" onclick="window.location.href='./locations/didcot.html'">
+                        <img src="../assets/imgs/location_imgs/Didcot.jpg" alt="Didcot" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Didcot</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/didcot.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:100ms;" onclick="window.location.href='./locations/oxford.html'">
+                        <img src="../assets/imgs/location_imgs/Oxford.jpg" alt="Oxford" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Oxford</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">city and suburbs</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/oxford.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:150ms;" onclick="window.location.href='./locations/witney.html'">
+                        <img src="../assets/imgs/location_imgs/Witney.jpg" alt="Witney" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Witney</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/witney.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:0ms;" onclick="window.location.href='./locations/wantage.html'">
+                        <img src="../assets/imgs/location_imgs/Wantage.jpg" alt="Wantage" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Wantage</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/wantage.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:50ms;" onclick="window.location.href='./locations/faringdon.html'">
+                        <img src="../assets/imgs/location_imgs/Faringdon.jpg" alt="Faringdon" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Faringdon</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/faringdon.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:100ms;" onclick="window.location.href='./locations/wallingford.html'">
+                        <img src="../assets/imgs/location_imgs/Wallingford.jpg" alt="Wallingford" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Wallingford</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/wallingford.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:150ms;" onclick="window.location.href='./locations/highworth.html'">
+                        <img src="../assets/imgs/location_imgs/Highworth.jpg" alt="Highworth" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Highworth</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/highworth.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:0ms;" onclick="window.location.href='./locations/carterton.html'">
+                        <img src="../assets/imgs/location_imgs/Carterton.jpg" alt="Carterton" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Carterton</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/carterton.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:50ms;" onclick="window.location.href='./locations/kidlington.html'">
+                        <img src="../assets/imgs/location_imgs/Kidlington.jpg" alt="Kidlington" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Kidlington</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/kidlington.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:100ms;" onclick="window.location.href='./locations/woodstock.html'">
+                        <img src="../assets/imgs/location_imgs/Woodstock.jpg" alt="Woodstock" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Woodstock</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/woodstock.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:150ms;" onclick="window.location.href='./locations/burford.html'">
+                        <img src="../assets/imgs/location_imgs/Burford.jpg" alt="Burford" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Burford</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/burford.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:0ms;" onclick="window.location.href='./locations/chalgrove.html'">
+                        <img src="../assets/imgs/location_imgs/Chalgrove.jpg" alt="Chalgrove" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Chalgrove</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/chalgrove.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:50ms;" onclick="window.location.href='./locations/yarnton.html'">
+                        <img src="../assets/imgs/location_imgs/Yarnton.jpg" alt="Yarnton" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Yarnton</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/yarnton.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:100ms;" onclick="window.location.href='./locations/swindon.html'">
+                        <img src="../assets/imgs/location_imgs/Swindon.jpg" alt="Swindon" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Swindon</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/swindon.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:150ms;" onclick="window.location.href='./locations/botley.html'">
+                        <img src="../assets/imgs/location_imgs/Botley.jpg" alt="Botley" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Botley</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/botley.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:0ms;" onclick="window.location.href='./locations/eynsham.html'">
+                        <img src="../assets/imgs/location_imgs/Eynsham.jpg" alt="Eynsham" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Eynsham</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/eynsham.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:50ms;" onclick="window.location.href='./locations/lechlade.html'">
+                        <img src="../assets/imgs/location_imgs/Lechlade.jpg" alt="Lechlade" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Lechlade</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/lechlade.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:100ms;" onclick="window.location.href='./locations/chipping-norton.html'">
+                        <img src="../assets/imgs/location_imgs/Chipping%20Norton.jpg" alt="Chipping Norton" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Chipping Norton</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/chipping-norton.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="group relative flex flex-col justify-end overflow-hidden aspect-square reveal" style="cursor:pointer;transition-delay:150ms;" onclick="window.location.href='./locations/grove.html'">
+                        <img src="../assets/imgs/location_imgs/Grove.jpg" alt="Grove" loading="lazy" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10"></div>
+                        <div class="relative z-20 p-6 flex flex-col justify-end h-full">
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Grove</h3>
+                            <p class="font-body text-white/75 text-xs leading-relaxed mb-4">and surrounding villages</p>
+                            <div class="card-btn-row flex gap-3 pt-4 border-t border-white/20">
+                                <a href="./locations/grove.html" onclick="event.stopPropagation()" class="flex-1 flex items-center justify-center py-3 border border-white/30 text-white font-bold text-[11px] hover:bg-[#d49813] hover:border-[#d49813] transition-all duration-300">View Location</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script src="../global.js"></script>
+
+    <script>
+        function tryReplaceCtaNumber() {
+            var ctaSection = document.querySelector('.section-dark');
+            if (!ctaSection) return false;
+            var spans = ctaSection.querySelectorAll('span');
+            for (var i = 0; i < spans.length; i++) {
+                if (spans[i].textContent.trim() === '14') { spans[i].textContent = '02'; return true; }
+            }
+            return false;
+        }
+        if (!tryReplaceCtaNumber()) {
+            var ctaObs = new MutationObserver(function() { if (tryReplaceCtaNumber()) ctaObs.disconnect(); });
+            ctaObs.observe(document.body, {childList: true, subtree: true});
+        }
+    </script>
+
+    <script>
+        (function() {
+            var els = document.querySelectorAll('.reveal');
+            if (!els.length) return;
+            var ob = new IntersectionObserver(function(entries) {
+                entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('active'); ob.unobserve(e.target); } });
+            }, {threshold: 0.08});
+            els.forEach(function(el) { ob.observe(el); });
+        })();
+    </script>
+
+</body>
+</html>

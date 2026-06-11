@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Enquiry Sent | Green Seasons</title>
+    <meta name="description" content="Thanks for getting in touch with Green Seasons. Tim will be back to you shortly with your free, no-obligation quote." />
+    <link rel="canonical" href="https://www.green-seasons.co.uk/pages/thankyou.html" />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <link rel="icon" type="image/png" href="../assets/imgs/main_favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4.3.0/dist/index.global.js" integrity="sha384-nWTzRTCY/9V4Bo352ehygr1c4cnst4XN6lMR3fipakEQrhVpc0hEM5Dii3Amz0sT" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../style.css">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-brand-dark:   #668e78;
+            --color-brand-ocean:  #668e78;
+            --color-brand-bronze: #d49813;
+            --color-brand-alice:  #ffffff;
+            --color-brand-beige:  #ffffff;
+            --color-brand-text:   #1a3528;
+            --font-heading: 'Marcus Traianus', 'Cinzel', Georgia, serif;
+            --font-body:    'DM Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen antialiased" style="background:#1a3528;" data-suppress-footer-cta data-nav-scrolled>
+
+    <div id="header-placeholder"></div>
+
+    <main class="flex-1 flex items-center justify-center px-6 pt-40 pb-24 md:pt-52 md:pb-32">
+        <div class="w-full max-w-2xl text-center">
+
+            <!-- Tick -->
+            <div class="flex items-center justify-center mb-10">
+                <svg class="w-14 h-14" style="color:#db9f1b;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+            </div>
+
+            <!-- Heading -->
+            <h1 class="font-heading font-black mb-7 leading-tight" style="color:#ffffff; font-size: clamp(2.5rem, 6vw, 4rem);">
+                Enquiry Sent!
+            </h1>
+
+            <!-- Body -->
+            <p class="font-body text-lg md:text-xl mb-5 mx-auto max-w-lg" style="color:rgba(255,255,255,0.80); line-height:1.7;">
+                Thanks for getting in touch. Tim will be back to you shortly with your free, no-obligation quote.
+            </p>
+            <p class="font-body text-base mb-16" style="color:rgba(255,255,255,0.55);">
+                In the meantime, feel free to call on
+                <a href="tel:+447545285408" style="color:#db9f1b; font-weight:600;">07545 285408</a>
+                if you'd prefer to talk straight away.
+            </p>
+
+            <!-- Button -->
+            <a href="../index.html"
+               class="font-body font-semibold text-base inline-block px-8 py-4 rounded-none transition-colors duration-200"
+               style="background:#db9f1b; color:#ffffff;"
+               onmouseenter="this.style.background='#668e78'"
+               onmouseleave="this.style.background='#db9f1b'">
+                Back to Home
+            </a>
+
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="../global.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var h = document.getElementById('site-header') || document.querySelector('header');
+            if (h) h.classList.add('scrolled');
+        });
+    </script>
+
+</body>
+</html>

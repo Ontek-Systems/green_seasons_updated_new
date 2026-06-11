@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Page Not Found | Green Seasons</title>
+    <meta name="description" content="The page you were looking for couldn't be found." />
+    <meta name="robots" content="noindex, nofollow" />
+
+    <link rel="icon" type="image/png" href="/assets/imgs/main_favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/@tailwindcss/browser@4.3.0/dist/index.global.js" integrity="sha384-nWTzRTCY/9V4Bo352ehygr1c4cnst4XN6lMR3fipakEQrhVpc0hEM5Dii3Amz0sT" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/style.css">
+    <style type="text/tailwindcss">
+        @theme {
+            --color-brand-dark:   #668e78;
+            --color-brand-ocean:  #668e78;
+            --color-brand-bronze: #d49813;
+            --color-brand-alice:  #ffffff;
+            --color-brand-beige:  #ffffff;
+            --color-brand-text:   #1a3528;
+            --font-heading: 'Marcus Traianus', 'Cinzel', Georgia, serif;
+            --font-body:    'DM Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col min-h-screen antialiased">
+
+    <div id="header-placeholder"></div>
+
+    <main class="flex-grow flex items-center justify-center" style="background:#668e78;">
+        <div class="w-full max-w-3xl mx-auto px-6 py-32 text-center text-white">
+            <p class="font-body font-extrabold text-xl tracking-widest uppercase mb-8">
+                <span class="border-b-[1.5px] border-current pb-0.5">404</span>
+            </p>
+            <h1 class="font-heading font-bold text-4xl md:text-6xl leading-tight mb-6">
+                This Page Has Wandered Off
+            </h1>
+            <p class="font-body text-base sm:text-lg md:text-xl text-white/85 max-w-xl mx-auto leading-relaxed mb-10">
+                The page you were looking for can't be found. It may have moved, or the link might be out of date.
+            </p>
+            <div class="flex flex-wrap items-center justify-center gap-4">
+                <a href="/" class="btn-adaptive">Return Home</a>
+                <a href="/contact" class="font-body font-bold text-sm text-white/80 tracking-wide underline underline-offset-[8px] decoration-2 decoration-white/30 hover:decoration-[#d49813] hover:text-[#d49813] transition-all duration-300">or Contact Tim</a>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/global.js"></script>
+</body>
+
+</html>

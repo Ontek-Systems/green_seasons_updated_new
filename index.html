@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ <title>Green Seasons | Professional Garden &amp; Grounds Maintenance in Oxfordshire</title>
+ <meta name="description" content="Green Seasons offers expert garden and grounds maintenance across Oxfordshire. Lawn care, hedge cutting, weed control, planting &amp; more, owner-led, reliable, professional." />
+ <meta name="robots" content="index, follow" />
+ <link rel="canonical" href="https://www.green-seasons.co.uk/" />
+
+ <meta property="og:type" content="website" />
+ <meta property="og:url" content="https://www.green-seasons.co.uk/" />
+ <meta property="og:title" content="Green Seasons | Garden &amp; Grounds Maintenance, Oxfordshire" />
+ <meta property="og:description" content="Green Seasons offers expert garden and grounds maintenance across Oxfordshire. Lawn care, hedge cutting, weed control, planting &amp; more, owner-led, reliable, professional." />
+ <meta property="og:image" content="https://www.green-seasons.co.uk/assets/imgs/og-image.jpg" />
+ <meta property="og:image:secure_url" content="https://www.green-seasons.co.uk/assets/imgs/og-image.jpg" />
+ <meta property="og:image:width" content="1200" />
+ <meta property="og:image:height" content="630" />
+ <meta property="og:image:type" content="image/jpeg" />
+ <meta property="og:locale" content="en_GB" />
+ <meta property="og:site_name" content="Green Seasons" />
+
+ <meta name="twitter:card" content="summary_large_image" />
+ <meta name="twitter:title" content="Green Seasons | Garden &amp; Grounds Maintenance, Oxfordshire" />
+ <meta name="twitter:description" content="Green Seasons offers expert garden and grounds maintenance across Oxfordshire. Lawn care, hedge cutting, weed control, planting &amp; more, owner-led, reliable, professional." />
+ <meta name="twitter:image" content="https://www.green-seasons.co.uk/assets/imgs/og-image.jpg" />
+
+
+ <link rel="icon" type="image/png" href="assets/imgs/main_favicon.png">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+ <link rel="preload" as="style"
+ href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap">
+ <link
+ href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap"
+ rel="stylesheet">
+
+ <script src="https://unpkg.com/@tailwindcss/browser@4.3.0/dist/index.global.js" integrity="sha384-nWTzRTCY/9V4Bo352ehygr1c4cnst4XN6lMR3fipakEQrhVpc0hEM5Dii3Amz0sT" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" href="style.css">
+ <style type="text/tailwindcss">
+ @theme {
+ --color-brand-dark: #668e78;
+ --color-brand-ocean: #668e78;
+ --color-brand-bronze: #d49813;
+ --color-brand-alice: #ffffff;
+ --color-brand-beige: #ffffff;
+ --color-brand-text: #1a3528;
+ --font-heading: 'Marcus Traianus', 'Cinzel', Georgia, serif;
+ --font-body: 'DM Sans', sans-serif;
+ }
+ 
+  /* ===== PAGE-WIDE: Solid buttons → gold resting, green hover ===== */
+  .btn-primary {
+    background-color: #db9f1b !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+    align-self: flex-start;
+    width: auto !important;
+  }
+  .btn-primary:hover {
+    background-color: #668e78 !important;
+    border-color: transparent !important;
+    color: #ffffff !important;
+  }
+  /* Ghost buttons (picture/dark backgrounds) → transparent, white outline */
+  .btn-ghost {
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    align-self: flex-start;
+    width: auto !important;
+  }
+  .btn-ghost:hover {
+    background-color: #db9f1b !important;
+    border-color: #db9f1b !important;
+    color: #ffffff !important;
+  }
+</style>
+</head>
+
+<body class="flex flex-col min-h-screen antialiased">
+
+ <div id="header-placeholder"></div>
+
+ <main>
+ <script type="application/ld+json">
+ {
+ "@context": "https://schema.org",
+ "@type": "LandscapingBusiness",
+ "name": "Green Seasons",
+ "image": "https://www.green-seasons.co.uk/assets/imgs/logo.png",
+ "@id": "https://www.green-seasons.co.uk/",
+ "url": "https://www.green-seasons.co.uk/",
+ "telephone": "+447545285408",
+ "email": "green-seasons@hotmail.com",
+ "address": {
+ "@type": "PostalAddress",
+ "streetAddress": "9 Morris Drive",
+ "addressLocality": "Oxfordshire",
+ "addressRegion": "Oxfordshire",
+ "postalCode": "OX13 5GW",
+ "addressCountry": "GB"
+ },
+ "openingHours": ["Mo-Fr 08:00-17:00"],
+ "areaServed": {
+ "@type": "State",
+ "name": "Oxfordshire"
+ },
+ "description": "Green Seasons provides professional garden and grounds maintenance services across Oxfordshire, including lawn care, hedge cutting, weed control, planting, and site clearance.",
+ "priceRange": "??"
+ }
+ </script>
+
+ <!-- -------------------------------------------------- -------------------------------------------------- 
+ FULL-SCREEN HERO WITH CENTERED CONTENT & BACKGROUND SLIDESHOW
+ -------------------------------------------------- -------------------------------------------------- -->
+ <section
+ class="relative flex flex-col lg:min-h-[100svh] pt-[170px] sm:pt-[180px] md:pt-[190px] pb-24 lg:pt-[200px] lg:pb-32 overflow-hidden z-0 bg-[#1a3528]">
+
+ <!-- Background Image Slideshow -->
+ <div id="hero-slideshow" class="absolute inset-0 w-full h-full z-0 overflow-hidden bg-[#1a3528]">
+ 
+ <style>
+ /* Premium Zoom & Fade (Ken Burns) Effect */
+ .hero-zoom-slide {
+ opacity: 0;
+ transform: scale(1);
+ /* Transform duration is long (15s) for a continuous slow zoom, 
+ while opacity transitions smoothly over 1.5s */
+ transition: opacity 1.5s ease-in-out, transform 15s linear;
+ will-change: transform, opacity;
+ z-index: 0;
+ }
+ .hero-zoom-slide.active {
+ opacity: 1;
+ transform: scale(1.15); /* Zooms in 15% smoothly */
+ z-index: 10;
+ }
+ </style>
+
+ <img src="assets/imgs/hero_slider/hero1.jpeg" alt="Garden maintenance Oxfordshire"
+ class="hero-zoom-slide absolute inset-0 w-full h-full object-cover" style="filter:saturate(1.35) brightness(1.21)">
+ <img src="assets/imgs/hero_slider/hero2.jpeg" alt="Lawn care and renovation Oxfordshire"
+ class="hero-zoom-slide absolute inset-0 w-full h-full object-cover" style="filter:saturate(1.35) brightness(1.21)">
+ <img src="assets/imgs/hero_slider/hero3.jpg" alt="Hedge cutting and shrub maintenance"
+ class="hero-zoom-slide absolute inset-0 w-full h-full object-cover" style="filter:saturate(1.35) brightness(1.21)">
+ <img src="assets/imgs/hero_slider/hero4.jpeg" alt="Grounds maintenance commercial property"
+ class="hero-zoom-slide absolute inset-0 w-full h-full object-cover" style="filter:saturate(1.35) brightness(1.21)">
+ <img src="assets/imgs/hero_slider/hero5.jpeg" alt="Professional garden transformation"
+ class="hero-zoom-slide absolute inset-0 w-full h-full object-cover" style="filter:saturate(1.35) brightness(1.21)">
+ <img src="assets/imgs/hero_slider/hero6.jpeg?v=2" alt="Green Seasons garden services Oxfordshire"
+ class="hero-zoom-slide absolute inset-0 w-full h-full object-cover" style="filter:saturate(1.89) brightness(1.09)">
+ 
+ <!-- 20% full overlay -->
+ <div class="absolute inset-0 bg-black/15 z-20 pointer-events-none"></div>
+ <!-- Nav gradient -->
+ <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/75 to-transparent z-20 pointer-events-none"></div>
+ </div>
+
+ <!-- Centered Content Container -->
+ <div
+ class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 z-30 relative flex-1 flex flex-col items-center justify-center mt-6 lg:mt-0">
+
+ <div
+ class="flex flex-col items-center text-center w-full max-w-4xl lg:max-w-5xl reveal reveal-up mx-auto" style="filter: drop-shadow(0 4px 59px rgba(0,0,0,1.0)) drop-shadow(0 2px 18px rgba(0,0,0,1.0))">
+
+ <a href="https://maps.app.goo.gl/vzqZkaaJvMBTuW9s7" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-1.5 mb-6 mt-2 drop-shadow-md hover:opacity-80 transition-opacity duration-200">
+ <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#d49813]" fill="currentColor" viewBox="0 0 24 24">
+ <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+ </svg>
+ <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#d49813]" fill="currentColor" viewBox="0 0 24 24">
+ <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+ </svg>
+ <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#d49813]" fill="currentColor" viewBox="0 0 24 24">
+ <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+ </svg>
+ <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#d49813]" fill="currentColor" viewBox="0 0 24 24">
+ <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+ </svg>
+ <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#d49813]" fill="currentColor" viewBox="0 0 24 24">
+ <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+ </svg>
+ <span
+ class="font-body text-white/90 text-xs sm:text-sm ml-2 font-medium leading-none translate-y-[1px]">5-Star Google Rated</span>
+ </a>
+
+ <h1
+ class="group font-heading font-black text-[2.1rem] sm:text-[2.85rem] md:text-[3.5rem] text-white leading-[1.15] mb-6 w-full cursor-default drop-shadow-xl">
+ Professional Grounds Maintained<br>to the Highest Standard
+ </h1>
+
+ <p class="font-body text-base sm:text-lg md:text-xl text-white/90 font-medium leading-relaxed max-w-2xl mx-auto mb-10 drop-shadow-md">
+ Green Seasons is a second-generation owner-led garden and grounds maintenance business serving Oxfordshire.
+ </p>
+
+<div class="flex flex-col sm:flex-row items-center gap-5 sm:gap-8 w-full justify-center">
+ <a href="pages/contact.html"
+ class="btn-ghost" style="font-size:0.85rem; background:rgba(0,0,0,0.3); box-shadow:0 4px 20px rgba(0,0,0,0.55);">Get a Free Quote</a>
+
+ <a href="tel:+447545285408"
+ class="font-body font-bold text-base sm:text-sm text-white tracking-wide underline underline-offset-[8px] decoration-2 decoration-white hover:decoration-[#d49813] hover:text-[#d49813] transition-all duration-300 whitespace-nowrap pt-2 sm:pt-0"
+ style="text-shadow:0 2px 12px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.9);">
+ or Call Tim
+ </a>
+ </div>
+ </div>
+ </div>
+
+
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+ const slides = document.querySelectorAll('.hero-zoom-slide');
+ let currentSlide = 0;
+ let slideInterval;
+
+ if (slides.length === 0) return;
+
+ const updateSlide = (index) => {
+ slides[currentSlide].classList.remove('active');
+ currentSlide = index;
+ slides[currentSlide].classList.add('active');
+ };
+
+ setTimeout(() => { slides[0].classList.add('active'); }, 50);
+
+ slideInterval = setInterval(() => {
+ updateSlide((currentSlide + 1) % slides.length);
+ }, 5000);
+ });
+ </script>
+ </section>
+
+ <!-- -------------------------------------------------- -------------------------------------------------- 
+ SCROLLING BANNER
+ -------------------------------------------------- -------------------------------------------------- -->
+ <style>
+ .scrolling-wrapper {
+ overflow: hidden;
+ white-space: nowrap;
+ display: flex;
+ width: 100%;
+ cursor: default;
+ }
+
+ .scrolling-track {
+ display: flex;
+ width: max-content;
+ animation: scrollBanner 25s linear infinite;
+ }
+
+ .scrolling-wrapper:hover .scrolling-track,
+ .scrolling-track:hover {
+ animation-play-state: running !important;
+ }
+
+ @keyframes scrollBanner {
+ 0% {
+ transform: translateX(0);
+ }
+
+ 100% {
+ transform: translateX(-50%);
+ }
+ }
+
+ .hover-item {
+ transition: opacity 0.3s ease;
+ }
+
+ .scrolling-wrapper:hover .hover-item {
+ opacity: 0.5;
+ }
+
+ .scrolling-wrapper .hover-item:hover {
+ opacity: 1;
+ }
+
+ .font-signature {
+ font-family: var(--font-signature);
+ }
+
+ .font-heading {
+ font-feature-settings: "liga" 0, "calt" 0, "onum" 0;
+ }
+
+ .bg-noise {
+ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+ opacity: 0.04;
+ mix-blend-mode: multiply;
+ }
+
+ @keyframes float {
+
+ 0%,
+ 100% {
+ transform: translateY(0);
+ }
+
+ 50% {
+ transform: translateY(-10px);
+ }
+ }
+
+ .animate-float {
+ animation: float 6s ease-in-out infinite;
+ }
+
+ .char-reveal {
+ display: inline-block;
+ opacity: 0;
+ transform: translateY(20px);
+ animation: textReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+ }
+
+ @keyframes textReveal {
+ to {
+ opacity: 1;
+ transform: translateY(0);
+ }
+ }
+ </style>
+
+ <div style="background:#668e78;" class="text-[#ffffff] py-5 border-y border-white/10 shadow-inner">
+ <div class="scrolling-wrapper">
+ <div class="scrolling-track flex items-center font-body font-medium tracking-wide text-sm md:text-base">
+
+ <div class="flex items-center gap-12 md:gap-20 px-6 md:px-10">
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Grounds Maintenance</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Lawn Care &amp; Renovation</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Hedge Cutting</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Weed Control</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Site Clearance</span>
+ </div>
+ </div>
+
+ <div class="flex items-center gap-12 md:gap-20 px-6 md:px-10">
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Grounds Maintenance</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Lawn Care &amp; Renovation</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Hedge Cutting</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Weed Control</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Site Clearance</span>
+ </div>
+ </div>
+
+ <div class="flex items-center gap-12 md:gap-20 px-6 md:px-10">
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Grounds Maintenance</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Lawn Care &amp; Renovation</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Hedge Cutting</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Weed Control</span>
+ </div>
+ <div class="flex items-center gap-3 hover-item">
+ <svg class="w-4 h-4 shrink-0 text-[#d49813]" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+ <span>Site Clearance</span>
+ </div>
+ </div>
+
+ </div>
+ </div>
+ </div>
+
+<!-- -------------------------------------------------- -------------------------------------------------- 
+ ABOUT / TRUST SECTION (DUAL PARALLAX LAYOUT)
+ -------------------------------------------------- -------------------------------------------------- -->
+ <section id="about-parallax-section"
+            class="relative py-16 lg:py-24 flex flex-col items-center justify-center overflow-hidden"
+            style="background:#ffffff;">
+ 
+ <style>
+ /* Premium Word Mask Animation */
+ .word-mask { 
+ display: inline-block; 
+ overflow: hidden; 
+ vertical-align: bottom; 
+ padding-bottom: 0.15em; 
+ margin-bottom: -0.15em;
+ }
+ .word-mask-inner { 
+ display: inline-block; 
+ transform: translateY(110%); 
+ transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); 
+ will-change: transform;
+ }
+ .reveal.active .word-mask-inner { 
+ transform: translateY(0); 
+ }
+ 
+ /* Title Underline Animation */
+ .title-underline-anim {
+ opacity: 0;
+ }
+ .reveal.active .title-underline-anim {
+ animation: revealUnderline 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 500ms forwards;
+ }
+ @keyframes revealUnderline {
+ from { opacity: 0; transform: translateY(20px); }
+ to { opacity: 1; transform: translateY(0); }
+ }
+
+ /* Square Editorial Overrides */
+ #about-parallax-section .btn-bubble,
+ #about-parallax-section .btn-bubble-fill,
+ #about-parallax-section .btn-bubble-icon-container {
+ border-radius: 0 !important;
+ }
+
+  /* About button, gold resting state, green hover */
+  #about-parallax-section .btn-primary {
+    background-color: #db9f1b;
+    color: #ffffff;
+    border-color: transparent;
+  }
+  #about-parallax-section .btn-primary:hover {
+    background-color: #668e78;
+    border-color: transparent;
+    color: #ffffff;
+  }
+  </style>
+
+            <!-- Back/Right Image spanning full section height on the right, bleeding to edges -->
+            <div class="absolute right-0 top-0 bottom-0 w-full lg:w-[40vw] overflow-hidden z-0">
+                <div class="absolute inset-0 bg-white/80 lg:bg-transparent z-10 pointer-events-none"></div>
+                <img src="assets/imgs/about us back.jpeg"
+                    alt="Professional grounds maintenance by Tim Harris" loading="lazy"
+                    class="w-full h-full object-cover" style="object-position: 65% center;"
+                    style="--img-saturate: 1.045; --img-brightness: 0.95; --img-contrast: 0.89;">
+            </div>
+
+            <!-- Front Image (Desktop Absolute, Centered on Break Line) -->
+            <div class="js-parallax-fast hidden lg:flex absolute top-1/2 right-[40vw] translate-x-1/2 z-10 w-[22vw] xl:w-[20vw] h-[365px] xl:h-[418px] items-center justify-center will-change-transform" data-speed="0.3" style="margin-top: -209px;">
+                <div class="relative w-full h-full overflow-hidden shadow-2xl shadow-black/50 z-10">
+                    <img src="assets/imgs/aboutusfront.jpeg"
+                        alt="High-standard garden care in Oxfordshire" loading="lazy"
+                        class="w-full h-full object-cover scale-[1.15]"
+                        style="--img-saturate: 1.44; --img-brightness: 1.10;">
+                </div>
+            </div>
+
+ <div
+ class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+
+ <!-- Left Column: Text & Stats -->
+                <div
+                    class="w-full lg:w-1/2 flex flex-col items-center text-center lg:items-start lg:text-left reveal z-20">
+
+ <span class="gs-tagline word-mask-inner" style="transition-delay: 50ms;">01</span>
+
+ <h2 class="gs-heading group mb-[22px] flex flex-col items-center lg:items-start w-full">
+ <span class="flex flex-wrap justify-center lg:justify-start gap-x-3 lg:gap-x-4 leading-tight">
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 100ms;">A</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">Second-Generation</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 300ms;">Grounds</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 400ms;">&amp;</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 500ms;">Garden</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 600ms;">Specialist</span></span>
+ </span>
+ 
+ <!-- Underline --></h2>
+
+ <div class="gs-body title-underline-anim space-y-5 mb-7 w-full max-w-xl mx-auto lg:mx-0" style="animation-delay: 700ms;">
+ <p>
+  Green Seasons is run by Tim Harris, a second-generation grounds and garden specialist with a strong horticultural background and years of hands-on experience maintaining outdoor spaces to a high standard.
+  </p>
+  <p>
+  Based in Oxfordshire, we provide professional grounds and garden maintenance services for residential developments, commercial sites, private estates, and domestic properties across the county.
+  </p>
+  <p>
+  Combining traditional horticultural knowledge with modern professional equipment and maintenance practices, Green Seasons delivers reliable, owner-led services focused on consistency, presentation, and long-term care of outdoor spaces.
+  </p>
+ </div>
+
+ <!-- Compact Stats -->
+ <div id="about-stats"
+ class="title-underline-anim flex flex-wrap items-center justify-center lg:justify-start gap-6 sm:gap-10 lg:gap-12 mb-8 w-full max-w-lg mx-auto lg:mx-0" style="animation-delay: 800ms;">
+ <div class="group flex flex-col items-center lg:items-start cursor-default">
+                            <p
+                                class="font-heading font-semibold tracking-tight text-4xl sm:text-5xl text-[#1a3528] transition-all duration-500 group-hover:-translate-y-1 group-hover:text-[#db9f1b] whitespace-nowrap">
+ <span class="auto-counter" data-target="20">0</span>+
+ </p>
+                            <p class="font-body text-[10px] sm:text-xs uppercase tracking-widest mt-1 font-bold text-[#1a3528]/60">
+ Years Exp.</p>
+ </div>
+ <div class="group flex flex-col items-center lg:items-start cursor-default">
+                            <p
+                                class="font-heading font-semibold tracking-tight text-4xl sm:text-5xl text-[#1a3528] transition-all duration-500 group-hover:-translate-y-1 group-hover:text-[#db9f1b] whitespace-nowrap">
+ 5-Star
+ </p>
+                            <p class="font-body text-[10px] sm:text-xs uppercase tracking-widest mt-1 font-bold text-[#1a3528]/60">
+ Google Rating</p>
+ </div>
+ <div class="group flex flex-col items-center lg:items-start cursor-default">
+                            <p
+                                class="font-heading font-semibold tracking-tight text-4xl sm:text-5xl text-[#1a3528] transition-all duration-500 group-hover:-translate-y-1 group-hover:text-[#db9f1b] whitespace-nowrap">
+ <span class="auto-counter" data-target="100">0</span>%
+ </p>
+                            <p class="font-body text-[10px] sm:text-xs uppercase tracking-widest mt-1 font-bold text-[#1a3528]/60">
+ Owner-Led</p>
+ </div>
+ </div>
+
+ <div class="title-underline-anim" style="animation-delay: 900ms;">
+ <a href="pages/about.html" class="btn-adaptive">Our Story</a>
+ </div>
+
+ </div>
+
+            <!-- Mobile Front Image (only visible on smaller screens) -->
+            <div class="lg:hidden w-full relative h-[400px] sm:h-[500px] mt-8 reveal reveal-up delay-100">
+                <div class="w-full h-full overflow-hidden shadow-2xl">
+                    <img src="assets/imgs/service_imgs/Custom%20Planting%20Schemes/Custom_Planting_Schemes_4.jpeg"
+                        alt="High-standard garden care in Oxfordshire" loading="lazy"
+                        class="w-full h-full object-cover scale-[1.15]"
+                        style="--img-saturate: 1.25; --img-brightness: 1.10;">
+                </div>
+            </div>
+
+ </div>
+
+ <!-- Custom Parallax Script -->
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+ const section = document.getElementById('about-parallax-section');
+            const frontImg = document.querySelector('.js-parallax-fast');
+
+            if (!section || !frontImg || window.innerWidth < 1024) return;
+
+ let ticking = false;
+
+ const updateParallax = () => {
+ const rect = section.getBoundingClientRect();
+ const viewportCenter = window.innerHeight / 2;
+ const sectionCenter = rect.top + (rect.height / 2);
+ 
+ // Positive offset = section is below viewport centre (not yet scrolled to).
+ // We want the image to start low and rise upward as we scroll into the section,
+ // so multiply by +speed (not -speed) to get upward motion on scroll-down.
+ const offset = sectionCenter - viewportCenter;
+                const speed = parseFloat(frontImg.dataset.speed) || 0.3;
+                const yFront = offset * speed;
+
+                frontImg.style.transform = `translate3d(0, ${yFront}px, 0)`;
+ 
+ ticking = false;
+ };
+
+ window.addEventListener('scroll', () => {
+ if (!ticking) {
+ window.requestAnimationFrame(updateParallax);
+ ticking = true;
+ }
+ }, { passive: true });
+
+ updateParallax();
+ });
+ </script>
+
+ <!-- Fixed Rock-Solid Counter Script -->
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+ const counters = document.querySelectorAll('#about-stats .auto-counter');
+ const speed = 2000; // Animation duration in milliseconds
+
+ if (counters.length === 0) return;
+
+ const counterObserver = new IntersectionObserver((entries, observer) => {
+ entries.forEach(entry => {
+ if (entry.isIntersecting) {
+ const target = +entry.target.getAttribute('data-target');
+ 
+ const updateCount = () => {
+ const current = +entry.target.innerText;
+ const increment = target / (speed / 16); // 16ms roughly equals 60fps
+
+ if (current < target) {
+ entry.target.innerText = Math.ceil(current + increment);
+ setTimeout(updateCount, 16);
+ } else {
+ entry.target.innerText = target;
+ }
+ };
+
+ updateCount();
+ observer.unobserve(entry.target); // Only animate once
+ }
+ });
+ }, { threshold: 0.5 }); // Triggers when 50% of the counter is visible
+
+ counters.forEach(counter => {
+ counterObserver.observe(counter);
+ });
+ });
+ </script>
+ </section>
+
+
+ 
+<!-- -------------------------------------------------- -------------------------------------------------- 
+ SERVICES SECTION
+ -------------------------------------------------- -------------------------------------------------- -->
+ <section id="services-section" class="relative min-h-[100svh] py-20 lg:py-32 flex items-center justify-center overflow-hidden"
+ style="background:#ffffff;">
+ 
+ <style>
+ /* Premium Word Mask Animation */
+ .word-mask { 
+ display: inline-block; 
+ overflow: hidden; 
+ vertical-align: bottom; 
+ /* Prevents cutting off descending letters like 'g' or 'p' */
+ padding-bottom: 0.15em; 
+ margin-bottom: -0.15em;
+ }
+ .word-mask-inner { 
+ display: inline-block; 
+ transform: translateY(110%); 
+ transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); 
+ will-change: transform;
+ }
+ .reveal.active .word-mask-inner { 
+ transform: translateY(0); 
+ }
+ 
+ /* Title Underline Animation - Fixed to allow hover transitions */
+ .title-underline-anim {
+ opacity: 0;
+ }
+ .reveal.active .title-underline-anim {
+ animation: revealUnderline 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 500ms forwards;
+ }
+ @keyframes revealUnderline {
+ from { opacity: 0; transform: translateY(20px); }
+ to { opacity: 1; transform: translateY(0); }
+ }
+
+ /* Square Editorial Overrides for this section */
+ #services-section .btn-bubble,
+ #services-section .btn-bubble-fill,
+ #services-section .btn-bubble-icon-container {
+ border-radius: 0 !important;
+ }
+ </style>
+
+ <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20">
+
+ <!-- Staggered Title Animation Container -->
+ <div class="flex flex-col items-center text-center mb-16 lg:mb-20 reveal">
+ 
+ <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-8 cursor-default text-[#1a3528] hover:text-[#db9f1b] transition-colors duration-300" style="transition-delay: 50ms;">
+                            <span class="border-b-[1.5px] border-current pb-0.5">02</span>
+                        </span>
+
+ <h2 class="group font-heading font-black text-4xl sm:text-5xl text-[#1a3528] mb-[22px] leading-[1.15] flex flex-col items-center text-center cursor-default w-full hover:text-[#db9f1b] transition-colors duration-500">
+ <span class="flex flex-wrap justify-center gap-x-3 lg:gap-x-4 leading-tight">
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 100ms;">Everything</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">Your</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">Outdoor</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 400ms;">Space</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 500ms;">Needs</span></span>
+ </span>
+ 
+ <!-- Underline --></h2>
+
+ <p class="title-underline-anim font-body text-lg md:text-xl text-[#1a3528]/80 max-w-2xl mx-auto leading-relaxed mt-4" style="animation-delay: 600ms;">
+ From weekly maintenance contracts to one-off site clearances, Green Seasons offers a comprehensive range of garden and grounds services tailored to both residential and commercial clients across Oxfordshire.
+ </p>
+ </div>
+
+ <!-- Full-Image Square Cards Grid (No rounding, No borders) -->
+ <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 w-full">
+
+ <!-- Card 1: Lawn Care & Renovation -->
+ <a href="pages/services.html#garden-design"
+ class="group relative flex flex-col justify-end overflow-hidden rounded-none border-none reveal reveal-up transition-all duration-500 hover:-translate-y-2 h-[420px] sm:h-[480px]">
+ <img src="assets/imgs/service_imgs/Seasonal Fertiliser/Seasonal_Fertiliser_1.jpeg" alt="Lawn Care and Renovation"
+ loading="lazy" decoding="async"
+ class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+ <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10 transition-opacity duration-500 group-hover:opacity-90"></div>
+ <div class="relative z-20 p-6 sm:p-8 flex flex-col h-full justify-end">
+ <h3 class="font-heading text-2xl lg:text-3xl mb-3 text-white">Lawn Care &amp; Renovation</h3>
+ <p class="font-body text-white/80 text-sm lg:text-base leading-relaxed">Grass cutting, edging, seasonal feeding, aeration, scarification, moss treatment, weed control, and full lawn renovations. Everything that keeps turf healthy and looking its best, year after year.</p>
+ </div>
+ </a>
+
+ <!-- Card 2: Garden & Grounds Maintenance -->
+ <a href="pages/services.html#groundworks"
+ class="group relative flex flex-col justify-end overflow-hidden rounded-none border-none reveal reveal-up transition-all duration-500 hover:-translate-y-2 h-[420px] sm:h-[480px]"
+ style="transition-delay: 100ms;">
+ <img src="assets/imgs/WhatsApp Image 2026-05-08 at 07.55.06 (1) copy.jpeg"
+ alt="Garden and Grounds Maintenance" loading="lazy" decoding="async"
+ class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0">
+ <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10 transition-opacity duration-500 group-hover:opacity-90"></div>
+ <div class="relative z-20 p-6 sm:p-8 flex flex-col h-full justify-end">
+ <h3 class="font-heading text-2xl lg:text-3xl mb-3 text-white">Garden &amp; Grounds Maintenance</h3>
+ <p class="font-body text-white/80 text-sm lg:text-base leading-relaxed">Regular upkeep of outdoor spaces: hedge cutting, shrub care, border maintenance, site presentation, and ongoing scheduled visits to keep everything looking its best.</p>
+ </div>
+ </a>
+
+ <!-- Card 3: Planting & Soft Landscaping -->
+ <a href="pages/services.html#digger-hire"
+ class="group relative flex flex-col justify-end overflow-hidden rounded-none border-none reveal reveal-up transition-all duration-500 hover:-translate-y-2 h-[420px] sm:h-[480px]"
+ style="transition-delay: 200ms;">
+ <img src="assets/imgs/WhatsApp Image 2026-04-29 at 13.46.29 (2).jpeg" alt="Planting and Soft Landscaping" loading="lazy" decoding="async"
+ class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0" style="filter: saturate(1.7) brightness(1.1);">
+ <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10 transition-opacity duration-500 group-hover:opacity-90"></div>
+ <div class="relative z-20 p-6 sm:p-8 flex flex-col h-full justify-end">
+ <h3 class="font-heading text-2xl lg:text-3xl mb-3 text-white">Planting &amp; Soft Landscaping</h3>
+ <p class="font-body text-white/80 text-sm lg:text-base leading-relaxed">Plant supply, planting schemes, border design, and refreshing tired outdoor spaces with new growth, bringing horticultural knowledge to how spaces are designed and developed over time.</p>
+ </div>
+ </a>
+
+ <!-- Card 4: Specialist & One-Off Works -->
+ <a href="pages/services.html#clearance"
+ class="group relative flex flex-col justify-end overflow-hidden rounded-none border-none reveal reveal-up transition-all duration-500 hover:-translate-y-2 h-[420px] sm:h-[480px]"
+ style="transition-delay: 300ms;">
+ <img src="assets/imgs/service_imgs/Full Site Clearance/Full_Site_Clearance_1.jpeg"
+ alt="Specialist and One-Off Works" loading="lazy" decoding="async"
+ class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 z-0" style="filter: saturate(1.7) brightness(1.1);">
+ <div class="absolute inset-0 bg-gradient-to-t from-[#1a3528]/95 via-[#1a3528]/40 to-transparent z-10 transition-opacity duration-500 group-hover:opacity-90"></div>
+ <div class="relative z-20 p-6 sm:p-8 flex flex-col h-full justify-end">
+ <h3 class="font-heading text-2xl lg:text-3xl mb-3 text-white">Specialist &amp; One-Off Works</h3>
+ <p class="font-body text-white/80 text-sm lg:text-base leading-relaxed">Site clearances, reset visits for neglected spaces, professional herbicide applications, hard surface weed and moss control, and specialist treatments like wetting agents and slow-release fertiliser programmes.</p>
+ </div>
+ </a>
+
+ </div>
+
+ <div class="mt-16 lg:mt-20 flex justify-center reveal reveal-up w-full">
+ <a href="pages/services.html" class="btn-primary">View All Services</a>
+ </div>
+
+ </div>
+ </section>
+
+<!-- 
+             WHO WE SERVE
+         -->
+        <section id="who-we-serve-section" class="relative pt-20 md:pt-32 pb-0 overflow-hidden" style="background:#ffffff; border-top: 1px solid rgba(26,53,40,0.05);">
+
+
+            <div class="w-full max-w-[98rem] mx-auto px-4 sm:px-6 lg:px-10 relative z-20">
+                <div class="flex flex-col items-center text-center mb-8 md:mb-12 reveal">
+                    <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-8 cursor-default text-[#1a3528] hover:text-[#db9f1b] transition-colors duration-300" style="transition-delay: 50ms;">
+                            <span class="border-b-[1.5px] border-current pb-0.5">03</span>
+                        </span>
+                    <h2 class="group font-heading font-black text-4xl sm:text-5xl text-[#1a3528] mb-[22px] leading-[1.15] flex flex-col items-center text-center cursor-default w-full hover:text-[#db9f1b] transition-colors duration-500">
+                        <span class="flex flex-wrap justify-center gap-x-3 lg:gap-x-4 leading-tight">
+                            <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 100ms;">Who</span></span>
+                             <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">We</span></span>
+                             <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">Serve</span></span>
+                        </span></h2>
+                    <p class="title-underline-anim font-body text-lg md:text-xl text-[#1a3528]/80 max-w-2xl mx-auto leading-relaxed mt-2" style="animation-delay: 600ms;">From private estates and residential developments to parish councils, business parks, and educational facilities across Oxfordshire.</p>
+                </div>
+            </div>
+
+            <div id="wws-cards" class="flex flex-col w-full gap-y-0 relative">
+
+                <!-- Gold centre line (desktop only) -->
+                <div class="hidden lg:block absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-1.5 z-30 pointer-events-none" style="background:#db9f1b;"></div>
+
+                <!-- 1: Private Homes & Gardens (Image Left) -->
+                <div class="flex flex-col lg:flex-row items-stretch w-full lg:min-h-[500px] xl:min-h-[600px] group">
+                    <div class="w-full lg:w-[calc(50%-3px)] relative overflow-hidden min-h-[280px] sm:min-h-[380px] lg:min-h-0">
+                        <img src="assets/imgs/WhatsApp Image 2026-05-15 at 23.09.16.jpeg" alt="Private Homes & Gardens" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110">
+                    </div>
+                    <div class="w-full lg:w-[calc(50%-3px)] flex flex-col justify-center p-8 sm:p-10 lg:p-16 xl:p-24 bg-[#f5fef8] reveal reveal-right relative overflow-hidden" style="transition-delay:0.4s">
+                        <div class="absolute top-0 left-0 w-1.5 h-full bg-[#ffffff] transform scale-y-0 origin-bottom transition-transform duration-700 group-hover:scale-y-100"></div>
+                        <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-6 cursor-default text-[#1a3528] hover:text-[#db9f1b] transition-colors duration-300"><span class="border-b-[1.5px] border-current pb-0.5">04</span></span>
+                        <h3 class="font-heading font-black text-4xl sm:text-5xl text-[#1a3528] mb-[22px] leading-[1.15] hover:text-[#db9f1b] transition-colors duration-500 cursor-default">Private Homes &amp; Gardens</h3>
+                        <p class="font-body text-base sm:text-lg text-[rgba(26,53,40,0.80)] leading-relaxed mb-7">Family gardens, lawns, and planting cared for by someone who treats your space like their own.</p>
+                        <a href="pages/services.html" class="btn-primary inline-block">View Services</a></div>
+                </div>
+
+                <!-- 2: Private Estates & Large Properties (Image Right) -->
+                <div class="flex flex-col lg:flex-row-reverse items-stretch w-full lg:min-h-[500px] xl:min-h-[600px] group">
+                    <div class="w-full lg:w-[calc(50%-3px)] relative overflow-hidden min-h-[280px] sm:min-h-[380px] lg:min-h-0">
+                        <img src="assets/imgs/service_imgs/Expert Shaping/Expert_Shaping_4.jpeg" alt="Private Estates & Large Properties" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110">
+                    </div>
+                    <div class="w-full lg:w-[calc(50%-3px)] flex flex-col justify-center p-8 sm:p-10 lg:p-16 xl:p-24 bg-white reveal reveal-left relative overflow-hidden text-left items-start" style="transition-delay:0.4s">
+                        <div class="absolute top-0 right-0 w-1.5 h-full bg-[#ffffff] transform scale-y-0 origin-bottom transition-transform duration-700 group-hover:scale-y-100 lg:block hidden"></div>
+                        <div class="absolute top-0 left-0 w-1.5 h-full bg-[#ffffff] transform scale-y-0 origin-bottom transition-transform duration-700 group-hover:scale-y-100 lg:hidden block"></div>
+                        <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-6 cursor-default text-[#1a3528] hover:text-[#db9f1b] transition-colors duration-300"><span class="border-b-[1.5px] border-current pb-0.5">05</span></span>
+                        <h3 class="font-heading font-black text-4xl sm:text-5xl text-[#1a3528] mb-[22px] leading-[1.15] hover:text-[#db9f1b] transition-colors duration-500 cursor-default">Private Estates &amp; Large Properties</h3>
+                        <p class="font-body text-base sm:text-lg text-[rgba(26,53,40,0.80)] leading-relaxed mb-7">Formal lawns, mature landscaping, and long-term horticultural care for properties that need a higher standard.</p>
+                        <a href="pages/services.html" class="btn-primary inline-block">View Services</a></div>
+                </div>
+
+                <!-- 3: Residential Developments & Estate Management (Image Left) -->
+                <div class="flex flex-col lg:flex-row items-stretch w-full lg:min-h-[500px] xl:min-h-[600px] group">
+                    <div class="w-full lg:w-[calc(50%-3px)] relative overflow-hidden min-h-[280px] sm:min-h-[380px] lg:min-h-0">
+                        <img src="assets/imgs/commercial page/05 residential.jpeg" alt="Residential Developments & Estate Management" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" style="filter: saturate(1.1);">
+                    </div>
+                    <div class="w-full lg:w-[calc(50%-3px)] flex flex-col justify-center p-8 sm:p-10 lg:p-16 xl:p-24 bg-[#f5fef8] reveal reveal-right relative overflow-hidden" style="transition-delay:0.4s">
+                        <div class="absolute top-0 left-0 w-1.5 h-full bg-[#ffffff] transform scale-y-0 origin-bottom transition-transform duration-700 group-hover:scale-y-100"></div>
+                        <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-6 cursor-default text-[#1a3528] hover:text-[#db9f1b] transition-colors duration-300"><span class="border-b-[1.5px] border-current pb-0.5">06</span></span>
+                        <h3 class="font-heading font-black text-4xl sm:text-5xl text-[#1a3528] mb-[22px] leading-[1.15] hover:text-[#db9f1b] transition-colors duration-500 cursor-default">Residential Developments &amp; Estate Management</h3>
+                        <p class="font-body text-base sm:text-lg text-[rgba(26,53,40,0.80)] leading-relaxed mb-7">Reliable, scheduled grounds maintenance for housing developments, communal areas, and managing agents who need consistent presentation across sites.</p>
+                        <a href="pages/commercial.html#commercial-enquiry" class="btn-primary inline-block">Commercial Work</a></div>
+                </div>
+
+                <!-- 4: Commercial & Business Sites (Image Right) -->
+                <div class="flex flex-col lg:flex-row-reverse items-stretch w-full lg:min-h-[500px] xl:min-h-[600px] group">
+                    <div class="w-full lg:w-[calc(50%-3px)] relative overflow-hidden min-h-[280px] sm:min-h-[380px] lg:min-h-0">
+                        <img src="assets/imgs/WhatsApp Image 2026-05-01 at 07.39.44 copy.jpeg" alt="Commercial & Business Sites" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110">
+                    </div>
+                    <div class="w-full lg:w-[calc(50%-3px)] flex flex-col justify-center p-8 sm:p-10 lg:p-16 xl:p-24 bg-white reveal reveal-left relative overflow-hidden text-left items-start" style="transition-delay:0.4s">
+                        <div class="absolute top-0 right-0 w-1.5 h-full bg-[#ffffff] transform scale-y-0 origin-bottom transition-transform duration-700 group-hover:scale-y-100 lg:block hidden"></div>
+                        <div class="absolute top-0 left-0 w-1.5 h-full bg-[#ffffff] transform scale-y-0 origin-bottom transition-transform duration-700 group-hover:scale-y-100 lg:hidden block"></div>
+                        <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-6 cursor-default text-[#1a3528] hover:text-[#db9f1b] transition-colors duration-300"><span class="border-b-[1.5px] border-current pb-0.5">07</span></span>
+                        <h3 class="font-heading font-black text-4xl sm:text-5xl text-[#1a3528] mb-[22px] leading-[1.15] hover:text-[#db9f1b] transition-colors duration-500 cursor-default">Commercial &amp; Business Sites</h3>
+                        <p class="font-body text-base sm:text-lg text-[rgba(26,53,40,0.80)] leading-relaxed mb-7">Front-of-house grounds care for offices, business parks, retail, and mixed-use developments. First impressions start at the kerb, not the front door.</p>
+                        <a href="pages/commercial.html#commercial-enquiry" class="btn-primary inline-block">Commercial Work</a></div>
+                </div>
+
+                <!-- 5: Public & Community Spaces (Image Left) -->
+                <div class="flex flex-col lg:flex-row items-stretch w-full lg:min-h-[500px] xl:min-h-[600px] group">
+                    <div class="w-full lg:w-[calc(50%-3px)] relative overflow-hidden min-h-[280px] sm:min-h-[380px] lg:min-h-0">
+                        <img src="assets/imgs/WhatsApp Image 2026-05-01 at 17.15.58 copy.jpeg" alt="Public & Community Spaces" class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110">
+                    </div>
+                    <div class="w-full lg:w-[calc(50%-3px)] flex flex-col justify-center p-8 sm:p-10 lg:p-16 xl:p-24 bg-[#f5fef8] reveal reveal-right relative overflow-hidden" style="transition-delay:0.4s">
+                        <div class="absolute top-0 left-0 w-1.5 h-full bg-[#ffffff] transform scale-y-0 origin-bottom transition-transform duration-700 group-hover:scale-y-100"></div>
+                        <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-6 cursor-default text-[#1a3528] hover:text-[#db9f1b] transition-colors duration-300"><span class="border-b-[1.5px] border-current pb-0.5">08</span></span>
+                        <h3 class="font-heading font-black text-4xl sm:text-5xl text-[#1a3528] mb-[22px] leading-[1.15] hover:text-[#db9f1b] transition-colors duration-500 cursor-default">Public &amp; Community Spaces</h3>
+                        <p class="font-body text-base sm:text-lg text-[rgba(26,53,40,0.80)] leading-relaxed mb-7">Maintenance for parish councils, schools, churchyards, and village greens that need to look cared for and welcoming year-round.</p>
+                        <a href="pages/commercial.html#commercial-enquiry" class="btn-primary inline-block">Commercial Work</a></div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+<!-- -------------------------------------------------- --------------------------------------------------
+ PROCESS SECTION
+ -------------------------------------------------- -------------------------------------------------- -->
+ <section id="process-section" class="relative bg-white">
+
+ <style>
+   #process-scroll-wrapper { position: relative; height: 420vh; }
+   #process-sticky {
+     position: sticky; top: 15px; height: 100vh; overflow: hidden;
+     display: flex; flex-direction: column; align-items: center; justify-content: center;
+     gap: 2.5rem; padding: 5.5rem 0 1rem;
+   }
+   #process-card-stage {
+     position: relative; width: 100%; height: 260px; flex-shrink: 0; overflow: hidden;
+   }
+   /* White fade edges */
+   #process-card-stage::before,
+   #process-card-stage::after {
+     content: ''; position: absolute; top: 0; bottom: 0; width: 200px; z-index: 2; pointer-events: none;
+   }
+   #process-card-stage::before { left: 0;  background: linear-gradient(to right, #fff 30%, transparent 100%); }
+   #process-card-stage::after  { right: 0; background: linear-gradient(to left,  #fff 30%, transparent 100%); }
+   /* The scrolling rail */
+   #process-card-rail {
+     position: absolute; top: 0; left: 0; height: 100%;
+     display: flex; align-items: stretch; gap: 24px;
+     will-change: transform;
+   }
+   .process-card {
+     flex-shrink: 0; width: 420px; height: 100%;
+     background: #fff; border: 1px solid rgba(26,53,40,0.12);
+     padding: 2rem 2.5rem; box-sizing: border-box;
+     display: flex; flex-direction: column; justify-content: center;
+     position: relative; overflow: hidden;
+   }
+   .process-dot { transition: background 0.25s, transform 0.25s; }
+   @media (max-width: 1023px) {
+     #process-scroll-wrapper { height: auto; }
+     #process-sticky { position: relative; height: auto; overflow: visible; padding: 5rem 2rem; gap: 2.5rem; }
+     #process-card-stage { height: auto; overflow: visible; }
+     #process-card-stage::before, #process-card-stage::after { display: none; }
+     #process-card-rail { position: relative; flex-direction: column; height: auto; transform: none !important; }
+     .process-card { width: 100%; height: auto; }
+     #process-dots { display: none; }
+   }
+ </style>
+
+ <div id="process-scroll-wrapper">
+   <div id="process-sticky">
+
+     <!-- Title: centered above cards -->
+     <div class="w-full max-w-3xl mx-auto px-8 flex flex-col items-center text-center flex-shrink-0 reveal">
+       <span class="gs-tagline word-mask-inner" style="transition-delay: 50ms;">09</span>
+       <h2 class="font-heading font-black text-4xl sm:text-5xl text-[#1a3528] leading-tight mb-4 hover:text-[#db9f1b] transition-colors duration-500 cursor-default flex justify-center gap-x-4">
+         <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 100ms;">How</span></span>
+         <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">We</span></span>
+         <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 300ms;">Work</span></span>
+       </h2>
+       <p class="title-underline-anim font-body text-base sm:text-lg md:text-xl text-[#1a3528]/80 leading-relaxed max-w-[25.6rem]" style="animation-delay: 400ms;">
+         Once you reach out to us, our process is completely straightforward, transparent, and built around delivering the highest standard of service for your outdoor space.
+       </p>
+     </div>
+
+     <!-- Card stage with rail -->
+     <div id="process-card-stage">
+       <div id="process-card-rail">
+
+         <div class="process-card">
+           <span class="absolute -top-2 right-4 font-heading font-black text-[6rem] leading-none select-none pointer-events-none" style="color: #db9f1b;">I</span>
+           <span class="text-[#db9f1b] font-body font-bold text-sm tracking-widest uppercase mb-3 block">Step 1</span>
+           <h3 class="font-heading font-bold text-[1.725rem] text-[#1a3528] mb-3">Initial Enquiry</h3>
+           <p class="font-body text-[#1a3528]/70 text-base leading-relaxed">Reach out by phone or email to discuss your needs. Tim will personally get back to you to arrange a completely free, no-obligation site visit at a time that suits your schedule.</p>
+         </div>
+
+         <div class="process-card">
+           <span class="absolute -top-2 right-4 font-heading font-black text-[6rem] leading-none select-none pointer-events-none" style="color: #db9f1b;">II</span>
+           <span class="text-[#db9f1b] font-body font-bold text-sm tracking-widest uppercase mb-3 block">Step 2</span>
+           <h3 class="font-heading font-bold text-[1.725rem] text-[#1a3528] mb-3">Free Site Assessment</h3>
+           <p class="font-body text-[#1a3528]/70 text-base leading-relaxed">Tim will carefully walk through your property, evaluate the condition of your garden or grounds, discuss your requirements in detail, and provide expert recommendations.</p>
+         </div>
+
+         <div class="process-card">
+           <span class="absolute -top-2 right-4 font-heading font-black text-[6rem] leading-none select-none pointer-events-none" style="color: #db9f1b;">III</span>
+           <span class="text-[#db9f1b] font-body font-bold text-sm tracking-widest uppercase mb-3 block">Step 3</span>
+           <h3 class="font-heading font-bold text-[1.725rem] text-[#1a3528] mb-3">Clear, Fair Quote</h3>
+           <p class="font-body text-[#1a3528]/70 text-base leading-relaxed">We'll provide a comprehensive, transparent quotation covering every aspect of the agreed works: no hidden charges, no unexpected fees. Just honest pricing from start to finish.</p>
+         </div>
+
+         <div class="process-card">
+           <span class="absolute -top-2 right-4 font-heading font-black text-[6rem] leading-none select-none pointer-events-none" style="color: #db9f1b;">IV</span>
+           <span class="text-[#db9f1b] font-body font-bold text-sm tracking-widest uppercase mb-3 block">Step 4</span>
+           <h3 class="font-heading font-bold text-[1.725rem] text-[#1a3528] mb-3">Professional Results</h3>
+           <p class="font-body text-[#1a3528]/70 text-base leading-relaxed">Expect punctual, professional service on every visit. We maintain consistently high standards throughout the entire duration of your maintenance contract.</p>
+         </div>
+
+       </div>
+     </div>
+
+     <!-- Progress dots -->
+     <div id="process-dots" class="flex gap-3 items-center flex-shrink-0">
+       <div class="process-dot w-2 h-2 rounded-full bg-[#1a3528]/25"></div>
+       <div class="process-dot w-2 h-2 rounded-full bg-[#1a3528]/25"></div>
+       <div class="process-dot w-2 h-2 rounded-full bg-[#1a3528]/25"></div>
+       <div class="process-dot w-2 h-2 rounded-full bg-[#1a3528]/25"></div>
+     </div>
+
+   </div>
+ </div>
+
+ <script>
+ (function() {
+   if (window.innerWidth < 1024) return;
+   var wrapper = document.getElementById('process-scroll-wrapper');
+   var rail    = document.getElementById('process-card-rail');
+   var stage   = document.getElementById('process-card-stage');
+   var cards   = Array.prototype.slice.call(rail.querySelectorAll('.process-card'));
+   var dots    = Array.prototype.slice.call(document.querySelectorAll('.process-dot'));
+   var n = cards.length;
+   var targetP = 0, currentP = 0;
+   var GAP = 24;
+
+   function clamp(v) { return v < 0 ? 0 : v > 1 ? 1 : v; }
+
+   function render(p) {
+     var stageW = stage.offsetWidth;
+     var cardW  = cards[0].offsetWidth;
+     // p=0: card 1 just creeping in from right (left edge at stageW-180)
+     // p=1: card 4 fully off left (right edge at 0)
+     var txStart = stageW - 180;
+     var txEnd   = -((n - 1) * (cardW + GAP) + cardW / 2);
+     var tx = txStart + p * (txEnd - txStart);
+     rail.style.transform = 'translateX(' + tx.toFixed(2) + 'px)';
+
+     var idx = Math.min(n - 1, Math.round(p * (n - 1)));
+     dots.forEach(function(dot, i) {
+       dot.style.background = i === idx ? '#db9f1b' : 'rgba(26,53,40,0.25)';
+       dot.style.transform  = i === idx ? 'scale(1.5)' : 'scale(1)';
+     });
+   }
+
+   function onScroll() {
+     var maxScroll = wrapper.offsetHeight - window.innerHeight;
+     targetP = clamp(-wrapper.getBoundingClientRect().top / maxScroll);
+   }
+
+   function tick() {
+     currentP += (targetP - currentP) * 0.14;
+     render(currentP);
+     requestAnimationFrame(tick);
+   }
+
+   render(0);
+   window.addEventListener('scroll', onScroll, { passive: true });
+   requestAnimationFrame(tick);
+ })();
+ </script>
+
+ </section>
+
+<!-- -------------------------------------------------- --------------------------------------------------
+ GALLERY / BEFORE & AFTER
+ -------------------------------------------------- -------------------------------------------------- -->
+ <section id="gallery-section" class="section-dark relative min-h-[100svh] py-12 lg:py-20 flex items-center justify-center overflow-hidden"
+ style="background:#668e78;">
+ 
+ <style>
+ /* Premium Word Mask Animation */
+ .word-mask { 
+ display: inline-block; 
+ overflow: hidden; 
+ vertical-align: bottom; 
+ padding-bottom: 0.15em; 
+ margin-bottom: -0.15em;
+ }
+ .word-mask-inner { 
+ display: inline-block; 
+ transform: translateY(110%); 
+ transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); 
+ will-change: transform;
+ }
+ .reveal.active .word-mask-inner { 
+ transform: translateY(0); 
+ }
+ 
+ /* Delayed Fade-in Animation (Keyframes fix hover conflict) */
+ .fade-up-anim {
+ opacity: 0;
+ }
+ .reveal.active .fade-up-anim {
+ animation: revealFadeUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+ }
+ @keyframes revealFadeUp {
+ from { opacity: 0; transform: translateY(20px); }
+ to { opacity: 1; transform: translateY(0); }
+ }
+
+ /* Square Editorial Overrides for this section */
+ #gallery-section .btn-bubble,
+ #gallery-section .btn-bubble-fill,
+ #gallery-section .btn-bubble-icon-container {
+ border-radius: 0 !important;
+ }
+ </style>
+
+ <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-10">
+ <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-16">
+
+ <!-- Left Column: Staggered Title Animation -->
+ <!-- The reveal class acts as the trigger for all children -->
+ <div class="w-full lg:w-5/12 flex flex-col items-center text-center lg:items-start lg:text-left reveal mt-4 lg:mt-0">
+
+ <span class="gs-tagline word-mask-inner" style="transition-delay: 50ms;">10</span>
+
+ <h2
+ class="gs-heading group mb-6 lg:mb-8 flex flex-col items-center lg:items-start w-full">
+ <span class="flex flex-wrap justify-center lg:justify-start gap-x-3 lg:gap-x-4 leading-tight">
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 100ms;">The</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">Difference</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">Four</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 400ms;">Weeks</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 500ms;">Makes</span></span>
+ </span>
+ 
+ <!-- Underline - Changed to animation-delay so hover transition works instantly -->
+ 
+ </h2>
+
+ <p
+ class="gs-body fade-up-anim mb-8 lg:mb-10 max-w-xl mx-auto lg:mx-0"
+ style="animation-delay: 600ms;">
+ The first picture shows the lawn on the day of the renovation work. The second picture was taken just four weeks post-renovation. Though only halfway through its recovery, it is already looking significantly better.
+ </p>
+
+ <div class="fade-up-anim w-full flex justify-center lg:justify-start" style="animation-delay: 700ms;">
+ <a href="pages/gallery.html" class="btn-adaptive">View Our Gallery</a>
+ </div>
+ </div>
+
+ <!-- Right Column: Before/After Slider -->
+ <!-- Completely squared off (rounded-none), removed border and black background -->
+ <div class="w-full lg:w-6/12 reveal reveal-up" style="transition-delay: 100ms;">
+ <div
+ class="ba-slider touch-pan-y relative w-full aspect-[25/24] md:aspect-[10/9] lg:aspect-[25/24] rounded-none overflow-hidden cursor-ew-resize shadow-2xl border-none group bg-transparent">
+ <img src="assets/imgs/after.jpg" alt="Green Seasons professional garden and grounds maintenance"
+ loading="lazy" decoding="async"
+ class="absolute inset-0 w-full h-full object-cover object-center pointer-events-none">
+ <img src="assets/imgs/before.jpg"
+ alt="Green Seasons professional garden and grounds maintenance" loading="lazy"
+ decoding="async"
+ class="ba-before absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
+ style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);">
+
+ <!-- Slider Handle (Squared off) -->
+ <div
+ class="ba-handle absolute top-0 bottom-0 left-[50%] w-1.5 bg-[#f5fef8] shadow-[0_0_15px_rgba(0,0,0,0.8)] pointer-events-none -ml-[3px] flex items-center justify-center z-10">
+ <div
+ class="w-14 h-14 bg-[#f5fef8] rounded-none shadow-2xl border border-gray-100 flex items-center justify-center text-[#668e78] transition-transform group-hover:scale-110">
+ <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+ <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+ d="M8 9l-3 3m0 0l3 3m-3-3h14m0 0l-3-3m3 3l-3 3"></path>
+ </svg>
+ </div>
+ </div>
+
+ <!-- Labels (Squared off) -->
+ <div
+ class="absolute bottom-6 left-6 bg-black/60 backdrop-blur-sm text-white px-4 py-1.5 rounded-none text-xs font-bold tracking-widest font-body uppercase pointer-events-none z-20">
+ Before</div>
+ <div
+ class="absolute bottom-6 right-6 bg-black/60 backdrop-blur-sm text-white px-4 py-1.5 rounded-none text-xs font-bold tracking-widest font-body uppercase pointer-events-none z-20">
+ After</div>
+ </div>
+ </div>
+
+ </div>
+ </div>
+ </section>
+
+ 
+ 
+ 
+ 
+ 
+ <!-- -------------------------------------------------- --------------------------------------------------
+ REVIEWS SECTION
+ -------------------------------------------------- -------------------------------------------------- -->
+ <section id="testimonials" class="relative pt-20 md:pt-32 pb-6 overflow-hidden bg-white" style="border-top: 1px solid rgba(26,53,40,0.05);">
+ 
+ <style>
+ .rv-scroll-outer {
+ overflow: hidden;
+ display: flex;
+ width: 100%;
+ cursor: grab;
+ }
+ .rv-scroll-outer.dragging {
+ cursor: grabbing;
+ user-select: none;
+ }
+ .rv-scroll-track {
+ display: flex;
+ width: max-content;
+ will-change: transform;
+ }
+ </style>
+
+ <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20">
+ <div class="flex flex-col items-center text-center mb-16 lg:mb-20 reveal w-full">
+ <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-8 cursor-default text-[#1a3528] hover:text-[#db9f1b] transition-colors duration-300" style="transition-delay: 50ms;">
+                            <span class="border-b-[1.5px] border-current pb-0.5">11</span>
+                        </span>
+ <h2 class="group font-heading font-black text-4xl sm:text-5xl text-[#1a3528] mb-[22px] leading-[1.15] flex flex-col items-center text-center cursor-default w-full hover:text-[#db9f1b] transition-colors duration-500">
+ <span class="flex flex-wrap justify-center gap-x-3 lg:gap-x-4 leading-tight">
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 100ms;">What</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">Our</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 200ms;">Clients</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 400ms;">Are</span></span>
+ <span class="word-mask"><span class="word-mask-inner" style="transition-delay: 500ms;">Saying</span></span>
+ </span>
+ </h2>
+ <p class="title-underline-anim font-body text-base sm:text-lg md:text-xl text-[#1a3528]/80 max-w-2xl mx-auto leading-relaxed mt-2" style="animation-delay: 600ms;">
+ Don't just take our word for it. Here's what our clients across Oxfordshire say about the Green Seasons service and the transformations we deliver.
+ </p>
+ </div>
+ </div>
+
+ <div class="relative reveal reveal-up mt-8 md:mt-12">
+ <div class="rv-scroll-outer py-4">
+ <div class="rv-scroll-track items-stretch">
+
+ <div class="flex-shrink-0 w-[85vw] sm:w-[400px] lg:w-[450px] px-8 sm:px-12 flex flex-col justify-between border-r border-[#1a3528]/10 group transition-opacity duration-300 hover:opacity-100">
+ <div>
+ <p class="font-body font-extrabold text-xs tracking-widest uppercase mb-3 text-[#1a3528]/40">01</p>
+ <div class="flex items-center gap-1 mb-6 justify-center sm:justify-start">
+ <span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span>
+ </div>
+ <p class="font-body text-lg sm:text-xl italic text-[#1a3528]/80 leading-[1.7] mb-8">
+ "Very professional and trusted service, Tim always maintains my garden hedges, excellent service, tidy and neat, friendly service, definitely recommend and reliable."
+ </p>
+ </div>
+ <div class="mt-auto flex items-end justify-between gap-4 pt-8">
+ <p class="font-body font-medium text-sm sm:text-base text-[#1a3528]">Robert Merola</p>
+ <svg class="w-5 h-5" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+ </div>
+ </div>
+ <div class="flex-shrink-0 w-[85vw] sm:w-[400px] lg:w-[450px] px-8 sm:px-12 flex flex-col justify-between border-r border-[#1a3528]/10 group transition-opacity duration-300 hover:opacity-100">
+ <div>
+ <p class="font-body font-extrabold text-xs tracking-widest uppercase mb-3 text-[#1a3528]/40">02</p>
+ <div class="flex items-center gap-1 mb-6 justify-center sm:justify-start">
+ <span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span>
+ </div>
+ <p class="font-body text-lg sm:text-xl italic text-[#1a3528]/80 leading-[1.7] mb-8">
+ "Tim has carried out several landscaping and gardening jobs in our garden. He does an excellent job. He makes very good suggestions about how to make an area look good and how to blend well with the environment and manage awkward spots. He is knowledgeable about plants. Tim works hard and efficiently and leaves everything very tidy when he's finished. Highly recommend."
+ </p>
+ </div>
+ <div class="mt-auto flex items-end justify-between gap-4 pt-8">
+ <p class="font-body font-medium text-sm sm:text-base text-[#1a3528]">J H</p>
+ <svg class="w-5 h-5" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+ </div>
+ </div>
+ <div class="flex-shrink-0 w-[85vw] sm:w-[400px] lg:w-[450px] px-8 sm:px-12 flex flex-col justify-between border-r border-[#1a3528]/10 group transition-opacity duration-300 hover:opacity-100">
+ <div>
+ <p class="font-body font-extrabold text-xs tracking-widest uppercase mb-3 text-[#1a3528]/40">03</p>
+ <div class="flex items-center gap-1 mb-6 justify-center sm:justify-start">
+ <span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span>
+ </div>
+ <p class="font-body text-lg sm:text-xl italic text-[#1a3528]/80 leading-[1.7] mb-8">
+ "A really good service. Very approachable and knowledgeable. Would highly recommend."
+ </p>
+ </div>
+ <div class="mt-auto flex items-end justify-between gap-4 pt-8">
+ <p class="font-body font-medium text-sm sm:text-base text-[#1a3528]">Martin Green</p>
+ <svg class="w-5 h-5" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+ </div>
+ </div>
+ <div class="flex-shrink-0 w-[85vw] sm:w-[400px] lg:w-[450px] px-8 sm:px-12 flex flex-col justify-between border-r border-[#1a3528]/10 group transition-opacity duration-300 hover:opacity-100">
+ <div>
+ <p class="font-body font-extrabold text-xs tracking-widest uppercase mb-3 text-[#1a3528]/40">04</p>
+ <div class="flex items-center gap-1 mb-6 justify-center sm:justify-start">
+ <span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span>
+ </div>
+ <p class="font-body text-lg sm:text-xl italic text-[#1a3528]/80 leading-[1.7] mb-8">
+ "Tim has cut my lawn a few times now, and the attention to detail, quality work and good communication means I will be using his business time and time again. Quality."
+ </p>
+ </div>
+ <div class="mt-auto flex items-end justify-between gap-4 pt-8">
+ <p class="font-body font-medium text-sm sm:text-base text-[#1a3528]">Chris James</p>
+ <svg class="w-5 h-5" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+ </div>
+ </div>
+ <div class="flex-shrink-0 w-[85vw] sm:w-[400px] lg:w-[450px] px-8 sm:px-12 flex flex-col justify-between border-r border-[#1a3528]/10 group transition-opacity duration-300 hover:opacity-100">
+ <div>
+ <p class="font-body font-extrabold text-xs tracking-widest uppercase mb-3 text-[#1a3528]/40">05</p>
+ <div class="flex items-center gap-1 mb-6 justify-center sm:justify-start">
+ <span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span><span class="text-[#db9f1b] text-base">&#9733;</span>
+ </div>
+ <p class="font-body text-lg sm:text-xl italic text-[#1a3528]/80 leading-[1.7] mb-8">
+ "Between them Jo and Tim are the perfect partnership. They have helped us transform a densely packed green space into an area with structure and potential for interesting growth over the coming summer. They are hard working, reliable, conscientious and get on with the project in good humour, whatever the weather. I would highly recommend Green Seasons for any garden requirement."
+ </p>
+ </div>
+ <div class="mt-auto flex items-end justify-between gap-4 pt-8">
+ <p class="font-body font-medium text-sm sm:text-base text-[#1a3528]">Fiona Pryor</p>
+ <svg class="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="12" fill="#1877F2"/><path d="M13.25 20v-6.5h2.18l.32-2.5H13.25v-1.6c0-.72.2-1.21 1.24-1.21h1.32V6.1A17.7 17.7 0 0 0 13.9 6c-1.93 0-3.25 1.18-3.25 3.34V11H8.5v2.5h2.15V20h2.6Z" fill="#fff"/></svg>
+ </div>
+ </div>
+ </div>
+
+ </div>
+
+ </section>
+
+ <script>
+ (function() {
+   var outer = document.querySelector('.rv-scroll-outer');
+   var track = document.querySelector('.rv-scroll-track');
+   if (!outer || !track) return;
+
+   track.innerHTML = track.innerHTML + track.innerHTML;
+
+   var speed = 0.6;
+   var pos = 0;
+   var isDragging = false;
+   var dragStartX = 0;
+   var dragStartPos = 0;
+   var paused = false;
+
+   function halfWidth() { return track.scrollWidth / 2; }
+
+   function setPos(p) {
+     var hw = halfWidth();
+     pos = ((p % hw) + hw) % hw;
+     track.style.transform = 'translateX(' + (-pos) + 'px)';
+   }
+
+   function tick() {
+     if (!isDragging && !paused) setPos(pos + speed);
+     requestAnimationFrame(tick);
+   }
+   requestAnimationFrame(tick);
+
+   outer.addEventListener('mouseenter', function() { paused = true; });
+   outer.addEventListener('mouseleave', function() { if (!isDragging) paused = false; });
+
+   outer.addEventListener('mousedown', function(e) {
+     isDragging = true;
+     paused = true;
+     dragStartX = e.clientX;
+     dragStartPos = pos;
+     outer.classList.add('dragging');
+     e.preventDefault();
+   });
+
+   window.addEventListener('mousemove', function(e) {
+     if (!isDragging) return;
+     setPos(dragStartPos + (dragStartX - e.clientX));
+   });
+
+   window.addEventListener('mouseup', function() {
+     if (!isDragging) return;
+     isDragging = false;
+     outer.classList.remove('dragging');
+     paused = false;
+   });
+
+   outer.addEventListener('touchstart', function(e) {
+     isDragging = true;
+     paused = true;
+     dragStartX = e.touches[0].clientX;
+     dragStartPos = pos;
+   }, {passive: true});
+
+   outer.addEventListener('touchmove', function(e) {
+     if (!isDragging) return;
+     setPos(dragStartPos + (dragStartX - e.touches[0].clientX));
+   }, {passive: true});
+
+   outer.addEventListener('touchend', function() {
+     isDragging = false;
+     paused = false;
+   });
+ })();
+ </script>
+
+<div class="flex justify-center py-8" style="background:#ffffff;">
+    <a href="pages/testimonials.html" class="btn-adaptive">Read All Testimonials</a>
+</div>
+
+ <!-- Review Request / QR -->
+ <div style="background:#1a3528;" class="py-24 md:py-32">
+ <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20">
+ <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-28 items-center reveal reveal-up">
+
+ <div class="flex flex-col items-center lg:items-start text-center lg:text-left order-1 lg:order-2">
+ <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-8 cursor-default text-white hover:text-[#db9f1b] transition-colors duration-300" style="transition-delay: 50ms;">
+                            <span class="border-b-[1.5px] border-current pb-0.5">12</span>
+                        </span>
+
+ <h2
+ class="group font-heading font-black text-4xl sm:text-5xl text-white mb-7 leading-[1.15] flex flex-col items-center lg:items-start cursor-default hover:text-[#db9f1b] transition-colors duration-500">
+ Leave Us a Google Review
+ </h2>
+
+ <p class="font-body text-base sm:text-lg md:text-xl mb-10 max-w-lg leading-relaxed" style="color:rgba(255,255,255,0.80);">
+ Your feedback helps other homeowners in Oxfordshire find a trusted local landscaping team. It takes less than a minute and means the world to us.
+ </p>
+
+ <a href="https://maps.app.goo.gl/TNmFVKfhLQSUmgw19" target="_blank" rel="noopener noreferrer"
+ class="btn-ghost">Write a Review</a>
+ </div>
+
+ <div class="flex justify-center lg:justify-end order-2 lg:order-1">
+ <div class="w-full max-w-xl flex flex-col items-center text-center gap-[5px] p-6 md:p-10">
+ <div class="flex flex-col items-center justify-center gap-4">
+ <svg class="w-[67px] h-[67px]" viewBox="0 0 24 24">
+ <path
+ d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+ fill="#4285F4" />
+ <path
+ d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+ fill="#34A853" />
+ <path
+ d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+ fill="#FBBC05" />
+ <path
+ d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+ fill="#EA4335" />
+ </svg>
+ <div>
+ <p
+ class="font-body text-[22px] md:text-[24px] text-white/70 uppercase tracking-widest leading-relaxed">
+ Scan here!
+ </p>
+ </div>
+ </div>
+ <div
+ class="flex-shrink-0 w-[250px] h-[250px] md:w-[307px] md:h-[307px] rounded-none overflow-hidden">
+ <img src="assets/imgs/white-bq.png"
+ alt="Green Seasons professional garden and grounds maintenance"
+ class="w-full h-full object-contain">
+ <div class="mt-2 flex flex-col items-center gap-1 opacity-60">
+ <p class="font-body text-sm font-bold tracking-widest uppercase text-white/60">07545 285408</p>
+ <p class="font-body text-[10px] md:text-xs tracking-widest uppercase text-white/40">Oxfordshire &bull; Oxfordshire</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+ </section>
+
+ <!-- -------------------------------------------------- --------------------------------------------------
+ FAQ SECTION
+ -------------------------------------------------- -------------------------------------------------- -->
+ <section id="faq" class="relative min-h-[100svh] py-20 flex items-center justify-center"
+ style="background:#ffffff;">
+ <div class="w-full max-w-[96rem] mx-auto px-4 sm:px-8 lg:px-12 relative z-20">
+
+ <div class="flex flex-col lg:flex-row gap-12 lg:gap-24 relative w-full">
+
+ <div class="w-full lg:w-1/3 relative">
+ <div
+ class="lg:sticky lg:top-48 flex flex-col items-center text-center lg:items-start lg:text-left reveal reveal-up mt-8 lg:mt-0">
+
+ <span class="word-mask-inner inline-block font-body font-extrabold text-xl tracking-widest uppercase mb-8 cursor-default text-[#1a3528] hover:text-[#db9f1b] transition-colors duration-300" style="transition-delay: 50ms;">
+                            <span class="border-b-[1.5px] border-current pb-0.5">13</span>
+                        </span>
+
+ <h2
+ class="group font-heading font-black text-4xl sm:text-5xl text-[#1a3528] leading-[1.15] flex flex-col items-center lg:items-start mb-8 cursor-default hover:text-[#db9f1b] transition-colors duration-500">
+ Frequently Asked Questions
+ </h2>
+
+ <p
+ class="font-body text-base sm:text-lg md:text-xl text-[#1a3528]/80 mb-10 max-w-sm leading-relaxed">
+  Everything you need to know about working with Green Seasons. Can't find your answer? Give Tim a call.
+ </p>
+
+ <a href="pages/contact.html" class="btn-primary">Get in Touch</a>
+ </div>
+ </div>
+
+ <div class="w-full lg:w-2/3 reveal reveal-up" style="transition-delay: 150ms;" itemscope
+ itemtype="https://schema.org/FAQPage">
+
+ <div class="space-y-0 font-body border-t border-[#668e78]/10">
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">Do you work with both residential and commercial clients?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">Yes. We maintain everything from private family gardens and large country estates to commercial business parks, housing developments, schools, and public community spaces. Whether you're a homeowner, a managing agent, or a facilities manager, we deliver the same standard of care across every site.</span>
+ </div>
+ </details>
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">What areas of Oxfordshire do you cover?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">We're based in Kingston Bagpuize and work throughout south Oxfordshire and the surrounding villages. If you're unsure whether you're in our area, get in touch and we'll let you know.</span>
+ </div>
+ </details>
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">Can I get an instant quote online?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">No, and that's deliberate. Every garden and site is different, and we believe a proper quote starts with seeing the space in person. Tim personally visits every potential client before quoting, so you get accurate pricing and a real understanding of what's involved. No hidden costs, no surprises.</span>
+ </div>
+ </details>
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">How does your pricing work?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">Pricing is tailored to each individual job rather than a fixed price list. After an initial chat and site visit, you'll receive a clear, fair quotation that covers everything we've agreed. We're not the cheapest option, we're the option that does the work properly, the first time.</span>
+ </div>
+ </details>
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">Do you offer ongoing maintenance or one-off jobs?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">Both. Most of our work is regular scheduled maintenance, weekly, fortnightly, or seasonal visits depending on the site. We also take on one-off projects like site clearances, lawn renovations, or initial "reset" visits to bring a neglected space back up to standard.</span>
+ </div>
+ </details>
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">What makes Green Seasons different from other gardeners?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">Tim is a second-generation gardener with a horticultural background, so the work is rooted in real plant knowledge, not just mowing and tidying. We use professional-grade electric equipment (quieter for you, better for the environment), communicate clearly throughout, and take ownership of the work we deliver.</span>
+ </div>
+ </details>
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">Will I have one point of contact, or a rotating team?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">You'll deal directly with Tim. We're owner-led, which means the person quoting your job is the person making sure it's delivered to standard, not a salesperson handing it off to a crew you've never met.</span>
+ </div>
+ </details>
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">Do you use chemicals and herbicides?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">Where appropriate, yes. We're fully certified for professional herbicide applications on lawns and hard surfaces. We only use them when they're the right tool for the job, applied carefully with proper equipment by qualified operators.</span>
+ </div>
+ </details>
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">How quickly can you start?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">It depends on the time of year and current workload. We're often busy, especially through the main growing season, so the sooner you get in touch the better. Once we've done a site visit and agreed scope, we'll give you a realistic start date.</span>
+ </div>
+ </details>
+
+ <details class="group border-b border-[#668e78]/10" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+ <summary class="flex justify-between items-center cursor-pointer list-none py-8 md:py-10 pr-2" itemprop="name">
+ <span class="font-heading font-bold text-xl sm:text-[1.32rem] lg:text-[1.65rem] text-[#1a3528] pr-6">How do I get in touch?</span>
+ <span class="flex-shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white flex items-center justify-center text-[#1a3528] shadow-sm transition-transform duration-300 group-open:rotate-180"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg></span>
+ </summary>
+ <div class="text-[#1a3528]/80 pb-8 md:pb-10 text-base sm:text-lg lg:text-xl leading-relaxed pr-8 md:pr-12" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+ <span itemprop="text">The best way is to give us a call or send a message through the contact form. Tim will personally get back to you to arrange a free, no-obligation site visit at a time that works for you.</span>
+ </div>
+ </details>
+
+ </div>
+ </div>
+
+ </div>
+ </div>
+ </section>
+
+ <style>
+ details>div {
+ animation-name: slideDown;
+ animation-duration: 350ms;
+ animation-timing-function: ease-out;
+ }
+
+ @keyframes slideDown {
+ from {
+ opacity: 0;
+ transform: translateY(-10px);
+ }
+
+ to {
+ opacity: 1;
+ transform: translateY(0);
+ }
+ }
+
+ details>summary::-webkit-details-marker {
+ display: none;
+ }
+
+ .font-signature {
+ font-family: var(--font-signature);
+ }
+
+ .bg-noise {
+ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+ opacity: 0.04;
+ mix-blend-mode: multiply;
+ }
+
+ @keyframes float {
+
+ 0%,
+ 100% {
+ transform: translateY(0);
+ }
+
+ 50% {
+ transform: translateY(-10px);
+ }
+ }
+
+ .animate-float {
+ animation: float 6s ease-in-out infinite;
+ }
+
+ .char-reveal {
+ display: inline-block;
+ opacity: 0;
+ transform: translateY(20px);
+ animation: textReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+ }
+
+ @keyframes textReveal {
+ to {
+ opacity: 1;
+ transform: translateY(0);
+ }
+ }
+ </style>
+
+ </main>
+
+ <style>
+ details>summary::-webkit-details-marker {
+ display: none;
+ }
+
+ .hide-scrollbar::-webkit-scrollbar {
+ display: none;
+ }
+
+ .hide-scrollbar {
+ -ms-overflow-style: none;
+ scrollbar-width: none;
+ }
+
+ .font-signature {
+ font-family: var(--font-signature);
+ }
+
+ .bg-noise {
+ background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+ opacity: 0.04;
+ mix-blend-mode: multiply;
+ }
+
+ @keyframes float {
+
+ 0%,
+ 100% {
+ transform: translateY(0);
+ }
+
+ 50% {
+ transform: translateY(-10px);
+ }
+ }
+
+ .animate-float {
+ animation: float 6s ease-in-out infinite;
+ }
+
+ .char-reveal {
+ display: inline-block;
+ opacity: 0;
+ transform: translateY(20px);
+ animation: textReveal 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+ }
+
+ @keyframes textReveal {
+ to {
+ opacity: 1;
+ transform: translateY(0);
+ }
+ }
+ </style>
+
+ <script>
+ document.addEventListener('DOMContentLoaded', () => {
+ // Before/After Slider
+ const sliders = document.querySelectorAll('.ba-slider');
+ sliders.forEach(slider => {
+ const beforeImage = slider.querySelector('.ba-before');
+ const handle = slider.querySelector('.ba-handle');
+ let isDragging = false;
+ const updateSlider = (e) => {
+ if (!isDragging) return;
+ const rect = slider.getBoundingClientRect();
+ let clientX = e.type.includes('touch') ? e.touches[0].clientX : e.clientX;
+ let xPos = Math.max(0, Math.min(clientX - rect.left, rect.width));
+ const percentage = (xPos / rect.width) * 100;
+ beforeImage.style.clipPath = `polygon(0 0, ${percentage}% 0, ${percentage}% 100%, 0 100%)`;
+ handle.style.left = `${percentage}%`;
+ };
+ slider.addEventListener('mousedown', () => isDragging = true);
+ window.addEventListener('mouseup', () => isDragging = false);
+ window.addEventListener('mousemove', updateSlider);
+ slider.addEventListener('touchstart', () => isDragging = true, { passive: true });
+ window.addEventListener('touchend', () => isDragging = false);
+ window.addEventListener('touchmove', updateSlider, { passive: true });
+ });
+
+ // Scroll Reveal
+ const revealEls = document.querySelectorAll('.reveal');
+ const revealObserver = new IntersectionObserver((entries) => {
+ entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('active'); revealObserver.unobserve(entry.target); } });
+ }, { threshold: 0.12 });
+ revealEls.forEach(el => revealObserver.observe(el));
+ });
+ </script>
+
+
+ <div id="footer-placeholder"></div>
+ <script src="global.js"></script>
+</body>
+
+</html>
+
+
+
+
+

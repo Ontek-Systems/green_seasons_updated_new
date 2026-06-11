@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /pages/thank-you.html
+Disallow: /pages/process_form.html
+
+Sitemap: https://www.green-seasons.co.uk/sitemap.xml
