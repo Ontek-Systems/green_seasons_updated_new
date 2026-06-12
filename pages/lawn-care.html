@@ -504,32 +504,32 @@
 
             <div class="mb-8 w-full max-w-xl">
               <p class="font-body text-sm font-bold text-[#db9f1b] uppercase tracking-widest mb-5">What's Included</p>
-              <ul class="space-y-3 flex flex-col items-center lg:items-start">
-                <li class="flex items-start gap-3 justify-center lg:justify-start">
+              <ul class="space-y-3 flex flex-col items-start w-full">
+                <li class="flex items-start gap-3 justify-start">
                   <svg class="w-5 h-5 text-[#db9f1b] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
                   <span class="font-body text-base text-white/85">Weed and moss treatment</span>
                 </li>
-                <li class="flex items-start gap-3 justify-center lg:justify-start">
+                <li class="flex items-start gap-3 justify-start">
                   <svg class="w-5 h-5 text-[#db9f1b] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
                   <span class="font-body text-base text-white/85">Multi-directional scarification</span>
                 </li>
-                <li class="flex items-start gap-3 justify-center lg:justify-start">
+                <li class="flex items-start gap-3 justify-start">
                   <svg class="w-5 h-5 text-[#db9f1b] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
                   <span class="font-body text-base text-white/85">Lawn aeration</span>
                 </li>
-                <li class="flex items-start gap-3 justify-center lg:justify-start">
+                <li class="flex items-start gap-3 justify-start">
                   <svg class="w-5 h-5 text-[#db9f1b] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
                   <span class="font-body text-base text-white/85">Premium overseeding</span>
                 </li>
-                <li class="flex items-start gap-3 justify-center lg:justify-start">
+                <li class="flex items-start gap-3 justify-start">
                   <svg class="w-5 h-5 text-[#db9f1b] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
                   <span class="font-body text-base text-white/85">Pre-seed fertiliser</span>
                 </li>
-                <li class="flex items-start gap-3 justify-center lg:justify-start">
+                <li class="flex items-start gap-3 justify-start">
                   <svg class="w-5 h-5 text-[#db9f1b] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
                   <span class="font-body text-base text-white/85">Top dressing</span>
                 </li>
-                <li class="flex items-start gap-3 justify-center lg:justify-start">
+                <li class="flex items-start gap-3 justify-start">
                   <svg class="w-5 h-5 text-[#db9f1b] flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
                   <span class="font-body text-base text-white/85">Aftercare advice</span>
                 </li>
@@ -571,13 +571,13 @@
 
         <!-- Process photo strip -->
         <div class="mt-14 grid grid-cols-3 gap-3 reveal reveal-up" style="transition-delay:0.2s;">
-          <div class="aspect-4/3 overflow-hidden">
+          <div class="aspect-4/3 overflow-hidden cursor-zoom-in" onclick="openLightbox(this.querySelector('img').src,this.querySelector('img').alt)">
             <img src="../assets/imgs/lawn-page/Scarifying and top dressing/1.jpeg" alt="Scarification process" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
           </div>
-          <div class="aspect-4/3 overflow-hidden">
+          <div class="aspect-4/3 overflow-hidden cursor-zoom-in" onclick="openLightbox(this.querySelector('img').src,this.querySelector('img').alt)">
             <img src="../assets/imgs/lawn-page/Scarifying and top dressing/2.jpeg" alt="Lawn top dressing" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
           </div>
-          <div class="aspect-4/3 overflow-hidden">
+          <div class="aspect-4/3 overflow-hidden cursor-zoom-in" onclick="openLightbox(this.querySelector('img').src,this.querySelector('img').alt)">
             <img src="../assets/imgs/lawn-page/Scarifying and top dressing/3.jpeg" alt="Lawn renovation in progress" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
           </div>
         </div>
@@ -958,16 +958,16 @@
 
         <!-- Commercial photo grid -->
         <div class="mt-14 grid grid-cols-2 md:grid-cols-4 gap-3 reveal reveal-up" style="transition-delay:0.25s;">
-          <div class="aspect-video overflow-hidden">
+          <div class="aspect-video overflow-hidden cursor-zoom-in" onclick="openLightbox(this.querySelector('img').src,this.querySelector('img').alt)">
             <img src="../assets/imgs/lawn-page/COMMERCIAL LAWNS/1.jpeg" alt="Commercial lawn care Oxfordshire" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
           </div>
-          <div class="aspect-video overflow-hidden">
+          <div class="aspect-video overflow-hidden cursor-zoom-in" onclick="openLightbox(this.querySelector('img').src,this.querySelector('img').alt)">
             <img src="../assets/imgs/lawn-page/COMMERCIAL LAWNS/2.jpeg" alt="Managed commercial grounds" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
           </div>
-          <div class="aspect-video overflow-hidden">
+          <div class="aspect-video overflow-hidden cursor-zoom-in" onclick="openLightbox(this.querySelector('img').src,this.querySelector('img').alt)">
             <img src="../assets/imgs/lawn-page/COMMERCIAL LAWNS/3.jpeg" alt="Professional commercial lawn treatment" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
           </div>
-          <div class="aspect-video overflow-hidden">
+          <div class="aspect-video overflow-hidden cursor-zoom-in" onclick="openLightbox(this.querySelector('img').src,this.querySelector('img').alt)">
             <img src="../assets/imgs/lawn-page/COMMERCIAL LAWNS/4.jpeg" alt="Green Seasons commercial site" loading="lazy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700">
           </div>
         </div>
@@ -1315,5 +1315,29 @@
     })();
   </script>
 
+<!-- Lightbox -->
+<div id="gs-lightbox" class="fixed inset-0 z-9999 bg-black/90 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300" onclick="closeLightbox()">
+  <button class="absolute top-5 right-5 text-white/70 hover:text-white transition-colors" onclick="closeLightbox();event.stopPropagation();" aria-label="Close">
+    <svg class="w-9 h-9" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+  </button>
+  <img id="gs-lightbox-img" src="" alt="" class="max-w-full max-h-[90vh] object-contain shadow-2xl" onclick="event.stopPropagation()">
+</div>
+<script>
+  function openLightbox(src, alt) {
+    var lb = document.getElementById('gs-lightbox');
+    document.getElementById('gs-lightbox-img').src = src;
+    document.getElementById('gs-lightbox-img').alt = alt || '';
+    lb.classList.remove('opacity-0','pointer-events-none');
+    lb.classList.add('opacity-100');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    var lb = document.getElementById('gs-lightbox');
+    lb.classList.add('opacity-0','pointer-events-none');
+    lb.classList.remove('opacity-100');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape') closeLightbox(); });
+</script>
 </body>
 </html>
