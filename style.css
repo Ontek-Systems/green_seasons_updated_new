@@ -595,7 +595,7 @@ div[onmouseenter][style*="background:#1a3528"] {
     /* Underline centring is handled by the rules above (lines 414-430). */
 
     /* --Buttons: centre on mobile (override align-self: flex-start from base styles) */
-    .btn-primary, .btn-primary-white, .btn-ghost, .btn-adaptive {
+    .btn-primary, .btn-primary-white, .btn-ghost, .btn-adaptive, .btn-green-cta {
         align-self: center !important;
         display: block !important;
         width: fit-content !important;
